@@ -1,0 +1,23 @@
+
+/ Request 
+table = {
+    "sku_id" :  ,
+    " forecast_timeline"  :  ,
+
+}
+
+/ Response
+
+x = {
+
+    "data"=   [
+        {
+            "sku_id": ,
+            "forecasted_demnad": ,
+            "revenue":  ,
+            "health":   ,
+            "action_replishment": 
+
+        }
+    ] 
+}

@@ -42,7 +42,7 @@ class ForecastService:
 
         # Identify regressors
         regressors = []
-        for col in ["promotions","is_holiday", "Customer Visits", "unit_price", "stock_in_hand"]:
+        for col in ["promotions","is_holiday", "Customer Visits"]:
             if col in df.columns:
                 regressors.append(col)
 
