@@ -7,12 +7,14 @@
     "avg_days_until_stockout": 20.35,
     "health_breakdown": {
       "Healthy": 0,
-      "Replenish": 24,
       "Shortage Risk": 4,
       "Slow Movers": 2,
-      "Overstock": 0,
-      "Unknown": 0
-    }
+      "Overstock": 0
+    },
+    "replenishment_need_total": 4024.44,
+    "revenue_at_risk": 2263966.1,
+    "healthy_supply_count": 3,
+    "healthy_supply_coverage": 10.0
   },
   "forecast": {
     "1023-003/0212-83/BISQUE": {

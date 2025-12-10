@@ -35,13 +35,14 @@ TIME_FILTER_CONFIG = {
 class InventoryItem:
     """Internal inventory analysis result"""
     def __init__(self, sku_id: str, forecasted_demand: float, historical_demand: float,
-                 revenue: float, health: str, action_replenishment: str,
+                 revenue: float, avg_price: float, health: str, action_replenishment: str,
                  days_until_stockout: Optional[float], current_stock: Optional[float],
                  avg_daily_sales: float, time_filter: str, historical_days: int):
         self.sku_id = sku_id
         self.forecasted_demand = forecasted_demand
         self.historical_demand = historical_demand
         self.revenue = revenue
+        self.avg_price = avg_price
         self.health = health
         self.action_replenishment = action_replenishment
         self.days_until_stockout = days_until_stockout
@@ -216,6 +217,7 @@ class InventoryService:
             forecasted_demand=round(forecasted_demand, 2),
             historical_demand=round(historical_demand, 2),
             revenue=round(revenue, 2),
+                avg_price=round(avg_price, 2),
             health=health,
             action_replenishment=action,
             days_until_stockout=round(days_until_stockout, 2) if days_until_stockout else None,
@@ -354,6 +356,7 @@ class UnifiedForecastService:
         Returns:
             Dictionary with aggregated metrics
         """
+        # Empty inventory list -> return zeros
         if not inventory_items:
             return {
                 "total_skus": 0,
@@ -363,33 +366,55 @@ class UnifiedForecastService:
                 "avg_days_until_stockout": 0.0,
                 "health_breakdown": {
                     "Healthy": 0,
-                    "Replenish": 0,
                     "Shortage Risk": 0,
                     "Slow Movers": 0,
-                    "Overstock": 0,
-                    "Unknown": 0
-                }
+                    "Overstock": 0
+                },
+                "replenishment_need_total": 0.0,
+                "revenue_at_risk": 0.0,
+                "healthy_supply_count": 0,
+                "healthy_supply_coverage": 0.0
             }
 
+        total_skus = len(inventory_items)
+        total_forecasted_demand = round(sum(r.forecasted_demand for r in inventory_items), 2)
+        total_historical_demand = round(sum(r.historical_demand for r in inventory_items), 2)
+        total_revenue = round(sum(r.revenue for r in inventory_items), 2)
+
+        days = [r.days_until_stockout for r in inventory_items if r.days_until_stockout is not None]
+        avg_days_until_stockout = round(sum(days) / len(days), 2) if days else 0.0
+
+        # Health breakdown (exclude 'Replenish' and 'Unknown' per requirements)
+        health_breakdown = {
+            "Healthy": len([r for r in inventory_items if r.health == "Healthy"]),
+            "Shortage Risk": len([r for r in inventory_items if r.health == "Shortage Risk"]),
+            "Slow Movers": len([r for r in inventory_items if r.health == "Slow Movers"]),
+            "Overstock": len([r for r in inventory_items if r.health == "Overstock"])
+        }
+
+        # Replenishment need: units required to meet forecast (sum of positive deficits)
+        replenishment_need_total = round(sum(
+            max(0.0, r.forecasted_demand - (r.current_stock or 0.0)) for r in inventory_items
+        ), 2)
+
+        # Revenue at risk: (forecasted - inventory) * avg_price for deficits only
+        revenue_at_risk = round(sum(
+            max(0.0, r.forecasted_demand - (r.current_stock or 0.0)) * (r.avg_price or 0.0) for r in inventory_items
+        ), 2)
+
+        healthy_supply_count = len([r for r in inventory_items if (r.current_stock or 0.0) >= r.forecasted_demand])
+        healthy_supply_coverage = round((healthy_supply_count / total_skus) * 100, 2) if total_skus else 0.0
+
         return {
-            "total_skus": len(inventory_items),
-            "total_forecasted_demand": round(sum(r.forecasted_demand for r in inventory_items), 2),
-            "total_historical_demand": round(sum(r.historical_demand for r in inventory_items), 2),
-            "total_revenue": round(sum(r.revenue for r in inventory_items), 2),
-            "avg_days_until_stockout": round(
-                sum([r.days_until_stockout for r in inventory_items if r.days_until_stockout])
-                / len([r for r in inventory_items if r.days_until_stockout])
-                if any(r.days_until_stockout for r in inventory_items)
-                else 0,
-                2
-            ),
-            "health_breakdown": {
-                "Healthy": len([r for r in inventory_items if r.health == "Healthy"]),
-                "Replenish": len([r for r in inventory_items if r.health == "Replenish"]),
-                "Shortage Risk": len([r for r in inventory_items if r.health == "Shortage Risk"]),
-                "Slow Movers": len([r for r in inventory_items if r.health == "Slow Movers"]),
-                "Overstock": len([r for r in inventory_items if r.health == "Overstock"]),
-                "Unknown": len([r for r in inventory_items if r.health == "Unknown"])
-            }
+            "total_skus": total_skus,
+            "total_forecasted_demand": total_forecasted_demand,
+            "total_historical_demand": total_historical_demand,
+            "total_revenue": total_revenue,
+            "avg_days_until_stockout": avg_days_until_stockout,
+            "health_breakdown": health_breakdown,
+            "replenishment_need_total": replenishment_need_total,
+            "revenue_at_risk": revenue_at_risk,
+            "healthy_supply_count": healthy_supply_count,
+            "healthy_supply_coverage": healthy_supply_coverage
         }
 
