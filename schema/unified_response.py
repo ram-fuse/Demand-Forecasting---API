@@ -38,15 +38,14 @@ class SKUForecastDetail(BaseModel):
 class SummaryMetrics(BaseModel):
     """Aggregated summary metrics"""
     total_skus: int
-    total_forecasted_demand: float
-    total_historical_demand: float
+    total_forecasted_demand: int  # integer units
+    total_historical_demand: int  # integer units
     total_revenue: float
     avg_days_until_stockout: float
-    health_breakdown: Dict[str, int]
-    replenishment_need_total: float
+    # health_breakdown maps each category to count + percent
+    health_breakdown: Dict[str, Dict[str, float]]
+    replenishment_need_total: int  # integer units needed
     revenue_at_risk: float
-    healthy_supply_count: int
-    healthy_supply_coverage: float
 
 
 class UnifiedForecastResponse(BaseModel):

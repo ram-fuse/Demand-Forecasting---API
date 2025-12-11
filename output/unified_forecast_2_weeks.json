@@ -1,20 +1,30 @@
 {
   "summary": {
     "total_skus": 30,
-    "total_forecasted_demand": 690.74,
-    "total_historical_demand": 908.0,
-    "total_revenue": 349675.47,
+    "total_forecasted_demand": 686,
+    "total_historical_demand": 908,
+    "total_revenue": 350166.21,
     "avg_days_until_stockout": 20.6,
     "health_breakdown": {
-      "Healthy": 0,
-      "Shortage Risk": 4,
-      "Slow Movers": 1,
-      "Overstock": 1
+      "Healthy": {
+        "count": 0.0,
+        "percent": 0.0
+      },
+      "Shortage Risk": {
+        "count": 4.0,
+        "percent": 13.33
+      },
+      "Slow Movers": {
+        "count": 1.0,
+        "percent": 3.33
+      },
+      "Overstock": {
+        "count": 1.0,
+        "percent": 3.33
+      }
     },
-    "replenishment_need_total": 179.52,
-    "revenue_at_risk": 95217.42,
-    "healthy_supply_count": 16,
-    "healthy_supply_coverage": 53.33
+    "replenishment_need_total": 170,
+    "revenue_at_risk": 85947.6
   },
   "forecast": {
     "1023-003/0212-83/BISQUE": {
@@ -128,20 +138,20 @@
           "2025-01-14"
         ],
         "values": [
-          1.14,
-          3.28,
-          1.18,
-          3.65,
-          2.72,
-          1.54,
-          1.97,
-          1.25,
-          3.39,
-          1.29,
-          3.77,
-          2.83,
-          1.65,
-          2.09
+          2.11,
+          2.17,
+          2.24,
+          2.14,
+          2.37,
+          2.28,
+          2.29,
+          2.16,
+          2.21,
+          2.28,
+          2.17,
+          2.38,
+          2.28,
+          2.28
         ]
       },
       "health_status": "Replenish",
@@ -149,9 +159,9 @@
       "current_stock": 18.0,
       "avg_daily_sales": 1.7,
       "days_until_stockout": 10.59,
-      "forecasted_demand": 31.75,
+      "forecasted_demand": 31.36,
       "historical_demand": 34.0,
-      "revenue": 10253.8
+      "revenue": 10130.12
     },
     "1023-071/SEAGLASS": {
       "historical": {
@@ -264,20 +274,20 @@
           "2025-01-14"
         ],
         "values": [
-          4.95,
-          5.42,
-          5.32,
-          5.63,
-          5.71,
-          6.34,
-          5.3,
-          4.71,
-          5.18,
-          5.08,
-          5.38,
-          5.47,
-          6.09,
-          5.06
+          4.32,
+          4.4,
+          4.31,
+          4.48,
+          4.25,
+          4.19,
+          4.66,
+          4.38,
+          4.46,
+          4.38,
+          4.56,
+          4.33,
+          4.28,
+          4.74
         ]
       },
       "health_status": "Replenish",
@@ -285,9 +295,9 @@
       "current_stock": 65.0,
       "avg_daily_sales": 2.5,
       "days_until_stockout": 26.0,
-      "forecasted_demand": 75.63,
+      "forecasted_demand": 61.74,
       "historical_demand": 50.0,
-      "revenue": 20082.42
+      "revenue": 16393.38
     },
     "1033-001/0219-61/HAZEL": {
       "historical": {
@@ -400,20 +410,20 @@
           "2025-01-14"
         ],
         "values": [
-          2.0,
-          0.4,
-          0.72,
-          1.57,
-          2.1,
-          0.75,
-          2.61,
-          2.15,
-          0.55,
-          0.87,
-          1.71,
-          2.25,
-          0.9,
-          2.76
+          1.45,
+          1.37,
+          1.62,
+          1.47,
+          1.49,
+          1.28,
+          1.5,
+          1.37,
+          1.28,
+          1.52,
+          1.35,
+          1.37,
+          1.15,
+          1.37
         ]
       },
       "health_status": "Shortage Risk",
@@ -421,9 +431,9 @@
       "current_stock": 5.0,
       "avg_daily_sales": 1.2,
       "days_until_stockout": 4.17,
-      "forecasted_demand": 21.34,
+      "forecasted_demand": 19.58,
       "historical_demand": 24.0,
-      "revenue": 10347.83
+      "revenue": 9493.83
     },
     "1046-171/SEAGLASS": {
       "historical": {
@@ -536,20 +546,20 @@
           "2025-01-14"
         ],
         "values": [
-          3.96,
-          3.69,
+          2.65,
+          2.45,
+          2.46,
+          2.52,
+          2.63,
+          2.62,
+          2.72,
+          2.53,
+          2.32,
+          2.32,
           2.37,
-          3.61,
-          3.22,
-          2.83,
-          2.19,
-          4.1,
-          3.83,
-          2.51,
-          3.75,
-          3.36,
-          2.97,
-          2.33
+          2.47,
+          2.47,
+          2.57
         ]
       },
       "health_status": "Replenish",
@@ -557,9 +567,9 @@
       "current_stock": 40.0,
       "avg_daily_sales": 1.8,
       "days_until_stockout": 22.22,
-      "forecasted_demand": 44.74,
+      "forecasted_demand": 35.1,
       "historical_demand": 36.0,
-      "revenue": 12815.68
+      "revenue": 10054.21
     },
     "1064-028/0425-53/ANTFROSTWHITE": {
       "historical": {
@@ -672,20 +682,20 @@
           "2025-01-14"
         ],
         "values": [
-          5.98,
-          6.6,
+          6.99,
+          6.97,
+          6.85,
+          6.94,
+          6.99,
+          6.74,
+          6.94,
+          6.91,
+          6.91,
+          6.8,
+          6.91,
+          6.97,
           6.72,
-          5.95,
-          6.1,
-          5.97,
-          6.22,
-          5.63,
-          6.25,
-          6.37,
-          5.61,
-          5.75,
-          5.62,
-          5.88
+          6.92
         ]
       },
       "health_status": "Replenish",
@@ -693,9 +703,9 @@
       "current_stock": 41.0,
       "avg_daily_sales": 4.95,
       "days_until_stockout": 8.28,
-      "forecasted_demand": 84.66,
+      "forecasted_demand": 96.55,
       "historical_demand": 99.0,
-      "revenue": 20709.27
+      "revenue": 23617.39
     },
     "1064-150/BLACK": {
       "historical": {
@@ -808,20 +818,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.22,
-          1.52,
-          1.73,
-          1.8,
-          1.08,
-          1.45,
-          0.57,
-          0.32,
-          1.62,
-          1.83,
-          1.9,
-          1.19,
-          1.55,
-          0.68
+          1.69,
+          1.66,
+          1.6,
+          1.56,
+          1.54,
+          1.53,
+          1.82,
+          1.82,
+          1.75,
+          1.64,
+          1.56,
+          1.51,
+          1.46,
+          1.7
         ]
       },
       "health_status": "Replenish",
@@ -829,9 +839,9 @@
       "current_stock": 22.0,
       "avg_daily_sales": 1.1,
       "days_until_stockout": 20.0,
-      "forecasted_demand": 17.45,
+      "forecasted_demand": 22.83,
       "historical_demand": 22.0,
-      "revenue": 14665.97
+      "revenue": 19184.36
     },
     "1072-071/OCEAN": {
       "historical": {
@@ -944,20 +954,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.58,
-          2.1,
-          1.34,
-          1.76,
-          1.49,
-          2.33,
-          1.63,
+          1.15,
+          1.11,
+          0.96,
+          1.09,
+          1.14,
+          1.18,
+          1.0,
+          1.07,
+          1.01,
+          0.83,
+          0.95,
           0.98,
-          2.5,
-          1.74,
-          2.15,
-          1.88,
-          2.72,
-          2.02
+          1.0,
+          0.81
         ]
       },
       "health_status": "Replenish",
@@ -965,9 +975,9 @@
       "current_stock": 29.0,
       "avg_daily_sales": 1.1,
       "days_until_stockout": 26.36,
-      "forecasted_demand": 25.21,
+      "forecasted_demand": 14.27,
       "historical_demand": 22.0,
-      "revenue": 9866.93
+      "revenue": 5584.32
     },
     "1072-072/OCEAN": {
       "historical": {
@@ -1080,20 +1090,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.82,
-          1.15,
-          0.54,
-          1.34,
+          0.89,
+          0.87,
+          1.0,
+          0.99,
           1.13,
-          0.46,
-          1.8,
-          0.96,
-          1.29,
-          0.68,
-          1.48,
-          1.27,
-          0.6,
-          1.94
+          1.05,
+          1.14,
+          0.95,
+          0.92,
+          1.04,
+          1.02,
+          1.15,
+          1.05,
+          1.13
         ]
       },
       "health_status": "Replenish",
@@ -1101,9 +1111,9 @@
       "current_stock": 9.0,
       "avg_daily_sales": 0.9,
       "days_until_stockout": 10.0,
-      "forecasted_demand": 15.45,
+      "forecasted_demand": 14.33,
       "historical_demand": 18.0,
-      "revenue": 9431.65
+      "revenue": 8747.42
     },
     "1079-009/0822-61/HONEY": {
       "historical": {
@@ -1216,20 +1226,20 @@
           "2025-01-14"
         ],
         "values": [
-          2.09,
-          1.42,
-          1.63,
-          1.82,
-          1.48,
-          2.09,
-          2.13,
-          2.46,
-          1.79,
-          2.0,
-          2.19,
-          1.85,
-          2.46,
-          2.5
+          1.38,
+          1.12,
+          1.12,
+          1.14,
+          1.06,
+          1.09,
+          1.15,
+          1.24,
+          0.98,
+          0.97,
+          0.99,
+          0.91,
+          0.94,
+          1.01
         ]
       },
       "health_status": "Replenish",
@@ -1237,9 +1247,9 @@
       "current_stock": 25.0,
       "avg_daily_sales": 1.45,
       "days_until_stockout": 17.24,
-      "forecasted_demand": 27.92,
+      "forecasted_demand": 15.11,
       "historical_demand": 29.0,
-      "revenue": 4272.13
+      "revenue": 2312.74
     },
     "1970-001/0566-66/SEAGLASS": {
       "historical": {
@@ -1352,20 +1362,20 @@
           "2025-01-14"
         ],
         "values": [
-          2.07,
-          3.84,
-          3.57,
-          3.23,
-          3.46,
-          3.09,
-          2.45,
-          2.06,
-          3.83,
-          3.55,
-          3.21,
-          3.45,
-          3.08,
-          2.43
+          1.43,
+          1.76,
+          1.53,
+          1.55,
+          1.58,
+          1.77,
+          1.78,
+          1.55,
+          1.9,
+          1.68,
+          1.71,
+          1.74,
+          1.94,
+          1.96
         ]
       },
       "health_status": "Replenish",
@@ -1373,9 +1383,9 @@
       "current_stock": 25.0,
       "avg_daily_sales": 1.3,
       "days_until_stockout": 19.23,
-      "forecasted_demand": 43.32,
+      "forecasted_demand": 23.88,
       "historical_demand": 26.0,
-      "revenue": 23497.49
+      "revenue": 12956.37
     },
     "628-004/0321-91": {
       "historical": {
@@ -1488,20 +1498,20 @@
           "2025-01-14"
         ],
         "values": [
-          1.53,
-          1.47,
-          1.42,
-          1.37,
-          1.31,
-          1.26,
-          1.21,
-          1.15,
-          1.1,
-          1.05,
-          0.99,
-          0.94,
-          0.88,
-          0.83
+          1.49,
+          1.3,
+          1.58,
+          1.33,
+          1.36,
+          1.38,
+          1.57,
+          1.45,
+          1.24,
+          1.51,
+          1.23,
+          1.24,
+          1.23,
+          1.41
         ]
       },
       "health_status": "Slow Movers",
@@ -1509,9 +1519,9 @@
       "current_stock": 73.0,
       "avg_daily_sales": 2.1,
       "days_until_stockout": 34.76,
-      "forecasted_demand": 16.51,
+      "forecasted_demand": 19.32,
       "historical_demand": 42.0,
-      "revenue": 18706.42
+      "revenue": 21884.56
     },
     "628-014/INN/0863-93": {
       "historical": {
@@ -1624,20 +1634,20 @@
           "2025-01-14"
         ],
         "values": [
-          1.7,
-          2.32,
-          0.94,
-          1.69,
-          1.63,
-          0.64,
-          1.06,
-          1.3,
-          1.93,
-          0.55,
-          1.3,
-          1.23,
-          0.25,
-          0.66
+          2.05,
+          2.07,
+          2.18,
+          2.26,
+          1.99,
+          2.07,
+          2.08,
+          2.07,
+          2.1,
+          2.21,
+          2.31,
+          2.04,
+          2.12,
+          2.14
         ]
       },
       "health_status": "Replenish",
@@ -1645,9 +1655,9 @@
       "current_stock": 46.0,
       "avg_daily_sales": 1.6,
       "days_until_stockout": 28.75,
-      "forecasted_demand": 17.21,
+      "forecasted_demand": 29.7,
       "historical_demand": 32.0,
-      "revenue": 16349.49
+      "revenue": 28210.29
     },
     "628-015/0884-93": {
       "historical": {
@@ -1760,20 +1770,20 @@
           "2025-01-14"
         ],
         "values": [
-          -0.11,
-          1.5,
-          0.73,
-          1.84,
-          1.47,
-          1.04,
-          1.47,
-          -0.01,
-          1.6,
+          1.19,
+          1.08,
+          0.8,
+          0.98,
+          0.99,
           0.82,
-          1.93,
-          1.56,
-          1.13,
-          1.57
+          1.04,
+          1.04,
+          0.9,
+          0.61,
+          0.78,
+          0.77,
+          0.59,
+          0.8
         ]
       },
       "health_status": "Shortage Risk",
@@ -1781,9 +1791,9 @@
       "current_stock": 6.0,
       "avg_daily_sales": 1.2,
       "days_until_stockout": 5.0,
-      "forecasted_demand": 16.55,
+      "forecasted_demand": 12.4,
       "historical_demand": 24.0,
-      "revenue": 24195.33
+      "revenue": 18132.38
     },
     "723-092/0212-83/BLACK": {
       "historical": {
@@ -1896,20 +1906,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.66,
-          1.69,
-          -0.4,
-          1.08,
-          -0.21,
-          0.45,
-          0.82,
-          0.5,
-          1.53,
-          -0.57,
-          0.92,
-          -0.37,
-          0.29,
-          0.66
+          0.97,
+          0.94,
+          0.79,
+          0.7,
+          0.7,
+          0.84,
+          1.1,
+          0.75,
+          0.72,
+          0.57,
+          0.49,
+          0.49,
+          0.65,
+          0.91
         ]
       },
       "health_status": "Replenish",
@@ -1917,9 +1927,9 @@
       "current_stock": 20.0,
       "avg_daily_sales": 1.3,
       "days_until_stockout": 15.38,
-      "forecasted_demand": 7.07,
+      "forecasted_demand": 10.63,
       "historical_demand": 26.0,
-      "revenue": 5647.36
+      "revenue": 8488.67
     },
     "773-009/0336-82/JAVA": {
       "historical": {
@@ -2032,20 +2042,20 @@
           "2025-01-14"
         ],
         "values": [
-          2.66,
-          -0.09,
+          0.99,
+          1.05,
+          0.97,
           0.85,
-          -0.23,
-          0.15,
-          0.49,
-          0.81,
-          2.67,
-          -0.09,
-          0.85,
-          -0.23,
-          0.15,
-          0.49,
-          0.81
+          0.92,
+          0.94,
+          0.96,
+          0.88,
+          0.96,
+          0.91,
+          0.82,
+          0.92,
+          0.97,
+          1.03
         ]
       },
       "health_status": "Replenish",
@@ -2053,9 +2063,9 @@
       "current_stock": 23.0,
       "avg_daily_sales": 1.05,
       "days_until_stockout": 21.9,
-      "forecasted_demand": 9.28,
+      "forecasted_demand": 13.17,
       "historical_demand": 21.0,
-      "revenue": 3239.39
+      "revenue": 4598.6
     },
     "773-019/0336-82/JAVA": {
       "historical": {
@@ -2168,20 +2178,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.16,
-          2.26,
-          0.29,
-          1.87,
-          1.73,
-          0.3,
-          2.43,
-          0.07,
-          2.17,
-          0.2,
-          1.78,
-          1.64,
-          0.21,
-          2.34
+          1.42,
+          1.25,
+          1.39,
+          1.66,
+          1.43,
+          1.52,
+          1.74,
+          1.42,
+          1.24,
+          1.35,
+          1.61,
+          1.37,
+          1.44,
+          1.65
         ]
       },
       "health_status": "Replenish",
@@ -2189,9 +2199,9 @@
       "current_stock": 14.0,
       "avg_daily_sales": 1.35,
       "days_until_stockout": 10.37,
-      "forecasted_demand": 17.45,
+      "forecasted_demand": 20.49,
       "historical_demand": 27.0,
-      "revenue": 15027.22
+      "revenue": 17649.29
     },
     "807-020H/AGEDBARREL": {
       "historical": {
@@ -2304,20 +2314,20 @@
           "2025-01-14"
         ],
         "values": [
-          1.16,
-          0.57,
-          1.68,
-          1.02,
-          0.67,
-          0.84,
-          1.17,
-          1.2,
-          0.61,
-          1.71,
-          1.06,
-          0.7,
-          0.87,
-          1.21
+          1.54,
+          1.44,
+          1.51,
+          1.48,
+          1.47,
+          1.57,
+          1.65,
+          1.6,
+          1.48,
+          1.52,
+          1.46,
+          1.42,
+          1.49,
+          1.55
         ]
       },
       "health_status": "Replenish",
@@ -2325,9 +2335,9 @@
       "current_stock": 54.0,
       "avg_daily_sales": 1.9,
       "days_until_stockout": 28.42,
-      "forecasted_demand": 14.47,
+      "forecasted_demand": 21.19,
       "historical_demand": 38.0,
-      "revenue": 4598.24
+      "revenue": 6734.26
     },
     "807-021H/FROSTWHITE": {
       "historical": {
@@ -2440,20 +2450,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.46,
-          0.6,
-          0.25,
-          -1.19,
-          -0.83,
-          -0.93,
-          0.42,
-          -0.01,
-          0.14,
-          -0.21,
-          -1.65,
-          -1.29,
-          -1.39,
-          -0.04
+          0.88,
+          1.0,
+          0.73,
+          0.84,
+          0.76,
+          0.69,
+          0.97,
+          0.87,
+          1.04,
+          0.8,
+          0.95,
+          0.91,
+          0.87,
+          1.18
         ]
       },
       "health_status": "Replenish",
@@ -2461,9 +2471,9 @@
       "current_stock": 9.0,
       "avg_daily_sales": 1.2,
       "days_until_stockout": 7.5,
-      "forecasted_demand": -5.66,
+      "forecasted_demand": 12.49,
       "historical_demand": 24.0,
-      "revenue": -2389.45
+      "revenue": 5275.37
     },
     "807-042GL/FROSTWHITE": {
       "historical": {
@@ -2576,20 +2586,20 @@
           "2025-01-14"
         ],
         "values": [
-          1.66,
-          1.45,
-          1.77,
-          2.1,
-          0.88,
-          1.59,
-          2.08,
-          2.02,
-          1.81,
-          2.13,
-          2.46,
-          1.24,
-          1.95,
-          2.44
+          0.94,
+          0.76,
+          0.79,
+          0.89,
+          0.8,
+          0.69,
+          0.85,
+          0.85,
+          0.69,
+          0.74,
+          0.86,
+          0.79,
+          0.7,
+          0.89
         ]
       },
       "health_status": "Replenish",
@@ -2597,9 +2607,9 @@
       "current_stock": 24.0,
       "avg_daily_sales": 1.35,
       "days_until_stockout": 17.78,
-      "forecasted_demand": 25.57,
+      "forecasted_demand": 11.24,
       "historical_demand": 27.0,
-      "revenue": 17478.01
+      "revenue": 7683.08
     },
     "807-049/OCEAN": {
       "historical": {
@@ -2712,20 +2722,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.29,
-          2.21,
-          2.26,
-          0.91,
           1.1,
-          0.88,
-          1.35,
-          0.69,
-          2.61,
-          2.65,
-          1.31,
-          1.5,
-          1.28,
-          1.75
+          1.13,
+          1.17,
+          0.94,
+          0.9,
+          1.05,
+          0.97,
+          0.97,
+          0.97,
+          0.97,
+          0.72,
+          0.66,
+          0.8,
+          0.71
         ]
       },
       "health_status": "Replenish",
@@ -2733,9 +2743,9 @@
       "current_stock": 22.0,
       "avg_daily_sales": 1.0,
       "days_until_stockout": 22.0,
-      "forecasted_demand": 20.79,
+      "forecasted_demand": 13.05,
       "historical_demand": 20.0,
-      "revenue": 4760.85
+      "revenue": 2986.93
     },
     "809-044G/OCEAN": {
       "historical": {
@@ -2848,20 +2858,20 @@
           "2025-01-14"
         ],
         "values": [
-          3.87,
-          1.97,
-          2.47,
           2.74,
-          1.41,
-          1.54,
-          1.86,
-          3.67,
-          1.77,
-          2.27,
-          2.54,
-          1.21,
-          1.34,
-          1.66
+          2.93,
+          2.99,
+          2.95,
+          3.08,
+          2.91,
+          3.09,
+          2.79,
+          2.98,
+          3.04,
+          3.0,
+          3.12,
+          2.94,
+          3.12
         ]
       },
       "health_status": "Shortage Risk",
@@ -2869,9 +2879,9 @@
       "current_stock": 5.0,
       "avg_daily_sales": 1.9,
       "days_until_stockout": 2.63,
-      "forecasted_demand": 30.3,
+      "forecasted_demand": 41.68,
       "historical_demand": 38.0,
-      "revenue": 12476.24
+      "revenue": 17164.69
     },
     "818-026/SEAGLASS": {
       "historical": {
@@ -2984,20 +2994,20 @@
           "2025-01-14"
         ],
         "values": [
+          1.45,
+          1.35,
+          1.56,
+          1.47,
+          1.36,
+          1.52,
+          1.9,
+          1.59,
           1.49,
-          1.03,
-          2.03,
-          1.25,
-          1.75,
-          1.06,
-          2.28,
-          1.55,
-          1.09,
-          2.09,
-          1.31,
-          1.81,
-          1.12,
-          2.33
+          1.69,
+          1.58,
+          1.46,
+          1.6,
+          1.96
         ]
       },
       "health_status": "Shortage Risk",
@@ -3005,9 +3015,9 @@
       "current_stock": 4.0,
       "avg_daily_sales": 1.15,
       "days_until_stockout": 3.48,
-      "forecasted_demand": 22.19,
+      "forecasted_demand": 21.99,
       "historical_demand": 23.0,
-      "revenue": 26761.69
+      "revenue": 26516.91
     },
     "818-042/HAVANA": {
       "historical": {
@@ -3120,20 +3130,20 @@
           "2025-01-14"
         ],
         "values": [
-          1.33,
-          1.41,
-          1.49,
-          1.57,
-          1.64,
-          1.72,
-          1.8,
-          1.88,
-          1.96,
-          2.04,
-          2.12,
-          2.2,
-          2.28,
-          2.36
+          1.18,
+          0.86,
+          0.82,
+          1.04,
+          0.95,
+          1.0,
+          0.97,
+          1.19,
+          0.88,
+          0.84,
+          1.07,
+          0.99,
+          1.04,
+          1.02
         ]
       },
       "health_status": "Replenish",
@@ -3141,9 +3151,9 @@
       "current_stock": 30.0,
       "avg_daily_sales": 1.4,
       "days_until_stockout": 21.43,
-      "forecasted_demand": 25.8,
+      "forecasted_demand": 13.85,
       "historical_demand": 28.0,
-      "revenue": 8155.46
+      "revenue": 4377.96
     },
     "818-144/NAVY": {
       "historical": {
@@ -3256,20 +3266,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.27,
-          0.16,
-          0.04,
-          -0.08,
-          -0.19,
-          -0.31,
-          -0.42,
-          -0.54,
-          -0.66,
-          -0.77,
-          -0.89,
-          -1.01,
-          -1.12,
-          -1.24
+          1.79,
+          1.82,
+          1.67,
+          2.02,
+          1.9,
+          1.97,
+          1.92,
+          1.78,
+          1.8,
+          1.65,
+          1.99,
+          1.87,
+          1.94,
+          1.89
         ]
       },
       "health_status": "Replenish",
@@ -3277,9 +3287,9 @@
       "current_stock": 17.0,
       "avg_daily_sales": 1.0,
       "days_until_stockout": 17.0,
-      "forecasted_demand": -6.76,
+      "forecasted_demand": 26.0,
       "historical_demand": 20.0,
-      "revenue": -2852.84
+      "revenue": 10977.96
     },
     "846-026/ANTBLACK": {
       "historical": {
@@ -3392,20 +3402,20 @@
           "2025-01-14"
         ],
         "values": [
-          1.87,
-          1.38,
-          0.94,
-          2.33,
-          3.29,
-          1.66,
-          0.97,
-          2.27,
-          1.78,
-          1.33,
-          2.72,
-          3.68,
-          2.06,
-          1.36
+          1.12,
+          0.86,
+          1.26,
+          1.04,
+          1.11,
+          0.92,
+          1.23,
+          0.96,
+          0.68,
+          1.06,
+          0.83,
+          0.9,
+          0.7,
+          1.02
         ]
       },
       "health_status": "Replenish",
@@ -3413,9 +3423,9 @@
       "current_stock": 30.0,
       "avg_daily_sales": 1.4,
       "days_until_stockout": 21.43,
-      "forecasted_demand": 27.65,
+      "forecasted_demand": 13.7,
       "historical_demand": 28.0,
-      "revenue": 29585.04
+      "revenue": 14656.68
     },
     "848-026/HAZEL": {
       "historical": {
@@ -3528,20 +3538,20 @@
           "2025-01-14"
         ],
         "values": [
+          0.66,
+          0.45,
+          0.61,
+          0.66,
+          0.69,
+          0.61,
+          0.64,
+          0.64,
           0.44,
-          1.21,
-          -0.1,
-          0.56,
-          0.24,
-          -0.04,
-          0.79,
-          0.29,
-          1.07,
-          -0.25,
-          0.41,
-          0.1,
-          -0.19,
-          0.65
+          0.61,
+          0.67,
+          0.7,
+          0.64,
+          0.67
         ]
       },
       "health_status": "Replenish",
@@ -3549,9 +3559,9 @@
       "current_stock": 30.0,
       "avg_daily_sales": 1.35,
       "days_until_stockout": 22.22,
-      "forecasted_demand": 5.17,
+      "forecasted_demand": 8.7,
       "historical_demand": 27.0,
-      "revenue": 5970.47
+      "revenue": 10032.8
     },
     "905-029/0886-91/MINERAL": {
       "historical": {
@@ -3664,20 +3674,20 @@
           "2025-01-14"
         ],
         "values": [
-          2.72,
-          2.64,
-          1.51,
-          2.5,
-          2.73,
-          1.91,
-          2.35,
-          3.07,
-          2.98,
-          1.85,
-          2.84,
-          3.07,
-          2.26,
-          2.69
+          1.47,
+          1.24,
+          1.19,
+          1.45,
+          1.18,
+          1.34,
+          1.52,
+          1.26,
+          1.04,
+          1.01,
+          1.3,
+          1.05,
+          1.23,
+          1.44
         ]
       },
       "health_status": "Replenish",
@@ -3685,9 +3695,9 @@
       "current_stock": 47.0,
       "avg_daily_sales": 2.0,
       "days_until_stockout": 23.5,
-      "forecasted_demand": 35.12,
+      "forecasted_demand": 17.71,
       "historical_demand": 40.0,
-      "revenue": 13913.03
+      "revenue": 7014.57
     },
     "905-075/GL0999-061/MINERAL": {
       "historical": {
@@ -3800,20 +3810,20 @@
           "2025-01-14"
         ],
         "values": [
-          0.01,
-          0.99,
-          1.34,
-          0.66,
+          1.17,
+          1.03,
+          1.02,
+          1.0,
+          0.74,
+          0.74,
+          0.74,
+          0.82,
+          0.68,
+          0.68,
           0.67,
-          1.67,
-          2.01,
-          0.01,
-          0.99,
-          1.34,
-          0.66,
-          0.66,
-          1.67,
-          2.0
+          0.42,
+          0.45,
+          0.47
         ]
       },
       "health_status": "Replenish",
@@ -3821,9 +3831,9 @@
       "current_stock": 18.0,
       "avg_daily_sales": 1.45,
       "days_until_stockout": 12.41,
-      "forecasted_demand": 14.67,
+      "forecasted_demand": 10.64,
       "historical_demand": 29.0,
-      "revenue": 5888.81
+      "revenue": 4269.95
     },
     "914-078/CELERY": {
       "historical": {
@@ -3936,20 +3946,20 @@
           "2025-01-14"
         ],
         "values": [
-          -0.15,
-          -0.26,
-          -0.36,
-          -0.47,
-          -0.57,
-          -0.68,
-          -0.79,
-          -0.89,
-          -1.0,
-          -1.11,
-          -1.21,
-          -1.32,
-          -1.42,
-          -1.53
+          1.26,
+          1.33,
+          1.34,
+          1.36,
+          1.43,
+          1.26,
+          1.39,
+          1.39,
+          1.44,
+          1.44,
+          1.44,
+          1.49,
+          1.29,
+          1.4
         ]
       },
       "health_status": "Overstock",
@@ -3957,9 +3967,9 @@
       "current_stock": 84.0,
       "avg_daily_sales": 0.7,
       "days_until_stockout": 120.0,
-      "forecasted_demand": -11.76,
+      "forecasted_demand": 19.25,
       "historical_demand": 14.0,
-      "revenue": -4720.23
+      "revenue": 7727.43
     },
     "970-076-4260/WILLOW": {
       "historical": {
@@ -4072,20 +4082,20 @@
           "2025-01-14"
         ],
         "values": [
-          2.36,
-          2.44,
-          0.71,
-          1.43,
-          1.13,
-          0.69,
-          1.36,
-          2.56,
-          2.64,
-          0.91,
-          1.63,
-          1.32,
+          0.95,
+          0.76,
+          0.99,
+          0.79,
+          1.09,
+          0.92,
+          1.22,
+          1.07,
           0.89,
-          1.56
+          1.13,
+          0.94,
+          1.25,
+          1.08,
+          1.38
         ]
       },
       "health_status": "Replenish",
@@ -4093,9 +4103,9 @@
       "current_stock": 18.0,
       "avg_daily_sales": 1.0,
       "days_until_stockout": 18.0,
-      "forecasted_demand": 21.65,
+      "forecasted_demand": 14.46,
       "historical_demand": 20.0,
-      "revenue": 10941.77
+      "revenue": 7309.69
     }
   }
 }

@@ -1,20 +1,30 @@
 {
   "summary": {
     "total_skus": 2,
-    "total_forecasted_demand": 105.37,
-    "total_historical_demand": 175.0,
-    "total_revenue": 37929.61,
+    "total_forecasted_demand": 100,
+    "total_historical_demand": 175,
+    "total_revenue": 35675.59,
     "avg_days_until_stockout": 8.41,
     "health_breakdown": {
-      "Healthy": 0,
-      "Shortage Risk": 0,
-      "Slow Movers": 0,
-      "Overstock": 0
+      "Healthy": {
+        "count": 0.0,
+        "percent": 0.0
+      },
+      "Shortage Risk": {
+        "count": 0.0,
+        "percent": 0.0
+      },
+      "Slow Movers": {
+        "count": 0.0,
+        "percent": 0.0
+      },
+      "Overstock": {
+        "count": 0.0,
+        "percent": 0.0
+      }
     },
-    "replenishment_need_total": 78.37,
-    "revenue_at_risk": 28318.41,
-    "healthy_supply_count": 0,
-    "healthy_supply_coverage": 0.0
+    "replenishment_need_total": 73,
+    "revenue_at_risk": 26063.11
   },
   "forecast": {
     "1023-003/0212-83/BISQUE": {
@@ -288,36 +298,36 @@
           "2025-01-30"
         ],
         "values": [
-          2.32,
+          2.11,
+          2.17,
+          2.24,
+          2.14,
           2.37,
-          1.78,
-          3.04,
-          2.65,
-          2.12,
-          1.52,
           2.28,
-          2.33,
-          1.75,
-          3.0,
-          2.61,
-          2.09,
-          1.48,
-          2.25,
-          2.3,
-          1.71,
-          2.97,
-          2.58,
-          2.05,
-          1.45,
+          2.29,
+          2.16,
           2.21,
+          2.28,
+          2.17,
+          2.38,
+          2.28,
+          2.28,
+          2.15,
+          2.19,
+          2.25,
+          2.14,
+          2.36,
           2.26,
-          1.67,
-          2.93,
-          2.54,
-          2.01,
-          1.41,
-          2.18,
-          2.23
+          2.26,
+          2.14,
+          2.19,
+          2.27,
+          2.17,
+          2.4,
+          2.32,
+          2.35,
+          2.24,
+          2.31
         ]
       },
       "health_status": "Replenish",
@@ -325,9 +335,9 @@
       "current_stock": 18.0,
       "avg_daily_sales": 1.9107,
       "days_until_stockout": 9.42,
-      "forecasted_demand": 66.1,
+      "forecasted_demand": 67.38,
       "historical_demand": 107.0,
-      "revenue": 21349.01
+      "revenue": 21763.29
     },
     "807-021H/FROSTWHITE": {
       "historical": {
@@ -600,36 +610,36 @@
           "2025-01-30"
         ],
         "values": [
-          1.81,
-          2.01,
-          1.15,
-          0.99,
-          0.74,
-          1.27,
-          1.12,
-          1.79,
-          1.99,
-          1.13,
-          0.97,
-          0.72,
-          1.25,
-          1.1,
-          1.77,
-          1.97,
-          1.11,
-          0.96,
-          0.71,
-          1.24,
-          1.08,
-          1.75,
-          1.96,
-          1.09,
-          0.94,
+          0.88,
+          1.0,
+          0.73,
+          0.84,
+          0.76,
           0.69,
-          1.22,
+          0.97,
+          0.87,
+          1.04,
+          0.8,
+          0.95,
+          0.91,
+          0.87,
+          1.18,
+          1.11,
+          1.29,
           1.07,
-          1.74,
-          1.94
+          1.22,
+          1.18,
+          1.13,
+          1.43,
+          1.34,
+          1.49,
+          1.24,
+          1.36,
+          1.27,
+          1.19,
+          1.44,
+          1.3,
+          1.41
         ]
       },
       "health_status": "Replenish",
@@ -637,9 +647,9 @@
       "current_stock": 9.0,
       "avg_daily_sales": 1.2143,
       "days_until_stockout": 7.41,
-      "forecasted_demand": 39.27,
+      "forecasted_demand": 32.95,
       "historical_demand": 68.0,
-      "revenue": 16580.6
+      "revenue": 13912.3
     }
   }
 }

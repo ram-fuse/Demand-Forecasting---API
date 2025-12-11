@@ -157,34 +157,36 @@ class InventoryService:
             (InventoryItem with health metrics, historical_days_used, forecast_days)
         """
         config = InventoryService._get_time_filter_config(time_filter)
-        historical_days = config["historical_days"]
+        display_historical_days = config["historical_days"]  # Only for frontend display
         forecast_days = config["forecast_days"]
 
         # Preprocess SKU data
         df_sku, regressors = ForecastingEngine.preprocess(df, sku_id)
-
-        # Keep only last N historical days
         df_sku = df_sku.sort_values("ds")
-        if len(df_sku) > historical_days:
-            df_sku = df_sku.tail(historical_days)
 
-        # Generate forecast
+        # Train Prophet on ALL available historical data (for better accuracy)
         forecast = ForecastingEngine.train_and_forecast(df_sku, regressors, forecast_days)
+        
+        # But only keep the last N days for display/response to frontend
+        if len(df_sku) > display_historical_days:
+            df_sku_display = df_sku.tail(display_historical_days)
+        else:
+            df_sku_display = df_sku
         future = forecast.tail(forecast_days)
 
-        # Calculate demand metrics
+        # Calculate demand metrics (use display data for metrics shown to user)
         forecasted_demand = float(future["yhat"].sum())
-        historical_demand = float(df_sku["y"].sum()) if "y" in df_sku.columns else 0.0
+        historical_demand = float(df_sku_display["y"].sum()) if "y" in df_sku_display.columns else 0.0
 
         # Calculate financial metrics
-        avg_price = float(df_sku["unit_price"].mean()) if "unit_price" in df_sku.columns else 0.0
+        avg_price = float(df_sku_display["unit_price"].mean()) if "unit_price" in df_sku_display.columns else 0.0
         revenue = forecasted_demand * avg_price
 
         # Calculate sales metrics
-        avg_daily_sales = float(df_sku["y"].mean()) if "y" in df_sku.columns else 0.0
+        avg_daily_sales = float(df_sku_display["y"].mean()) if "y" in df_sku_display.columns else 0.0
 
-        # Get current stock
-        current_stock = float(df_sku["stock_in_hand"].iloc[-1]) if "stock_in_hand" in df_sku.columns else None
+        # Get current stock (from latest available data)
+        current_stock = float(df_sku_display["stock_in_hand"].iloc[-1]) if "stock_in_hand" in df_sku_display.columns else None
 
         # Calculate days until stockout
         if current_stock and avg_daily_sales > 0:
@@ -217,15 +219,15 @@ class InventoryService:
             forecasted_demand=round(forecasted_demand, 2),
             historical_demand=round(historical_demand, 2),
             revenue=round(revenue, 2),
-                avg_price=round(avg_price, 2),
+            avg_price=round(avg_price, 2),
             health=health,
             action_replenishment=action,
             days_until_stockout=round(days_until_stockout, 2) if days_until_stockout else None,
             current_stock=current_stock,
             avg_daily_sales=round(avg_daily_sales, 4),
             time_filter=time_filter,
-            historical_days=historical_days
-        ), historical_days, forecast_days
+            historical_days=display_historical_days
+        ), display_historical_days, forecast_days
 
 
 
@@ -278,16 +280,18 @@ class UnifiedForecastService:
                 # Prepare SKU data for forecasting
                 df_sku, regressors = ForecastingEngine.preprocess(df, sku)
 
-                # Extract historical period (last N days)
+                # Ensure SKU data is sorted
                 df_sku = df_sku.sort_values("ds")
+
+                # Train Prophet on ALL available historical data for this SKU (full history)
+                forecast = ForecastingEngine.train_and_forecast(df_sku, regressors, forecast_days)
+                future = forecast.tail(forecast_days)
+
+                # Prepare historical slice for display (last N days only)
                 if len(df_sku) > historical_days:
                     df_sku_hist = df_sku.tail(historical_days)
                 else:
                     df_sku_hist = df_sku
-
-                # Generate forecast
-                forecast = ForecastingEngine.train_and_forecast(df_sku_hist, regressors, forecast_days)
-                future = forecast.tail(forecast_days)
 
                 # Extract time-series data
                 # Historical demand
@@ -377,20 +381,27 @@ class UnifiedForecastService:
             }
 
         total_skus = len(inventory_items)
-        total_forecasted_demand = round(sum(r.forecasted_demand for r in inventory_items), 2)
-        total_historical_demand = round(sum(r.historical_demand for r in inventory_items), 2)
+        # Totals as integers (units)
+        total_forecasted_demand = int(round(sum(r.forecasted_demand for r in inventory_items)))
+        total_historical_demand = int(round(sum(r.historical_demand for r in inventory_items)))
         total_revenue = round(sum(r.revenue for r in inventory_items), 2)
 
         days = [r.days_until_stockout for r in inventory_items if r.days_until_stockout is not None]
         avg_days_until_stockout = round(sum(days) / len(days), 2) if days else 0.0
 
-        # Health breakdown (exclude 'Replenish' and 'Unknown' per requirements)
-        health_breakdown = {
+        # Health breakdown counts (exclude 'Replenish' and 'Unknown' per requirements)
+        health_counts = {
             "Healthy": len([r for r in inventory_items if r.health == "Healthy"]),
             "Shortage Risk": len([r for r in inventory_items if r.health == "Shortage Risk"]),
             "Slow Movers": len([r for r in inventory_items if r.health == "Slow Movers"]),
             "Overstock": len([r for r in inventory_items if r.health == "Overstock"])
         }
+
+        # Convert counts to {count, percent}
+        health_breakdown = {}
+        for cat, cnt in health_counts.items():
+            pct = round((cnt / total_skus) * 100, 2) if total_skus else 0.0
+            health_breakdown[cat] = {"count": cnt, "percent": pct}
 
         # Replenishment need: units required to meet forecast (sum of positive deficits)
         replenishment_need_total = round(sum(
@@ -402,9 +413,7 @@ class UnifiedForecastService:
             max(0.0, r.forecasted_demand - (r.current_stock or 0.0)) * (r.avg_price or 0.0) for r in inventory_items
         ), 2)
 
-        healthy_supply_count = len([r for r in inventory_items if (r.current_stock or 0.0) >= r.forecasted_demand])
-        healthy_supply_coverage = round((healthy_supply_count / total_skus) * 100, 2) if total_skus else 0.0
-
+        # Return aggregated summary. healthy_supply_count/coverage removed
         return {
             "total_skus": total_skus,
             "total_forecasted_demand": total_forecasted_demand,
@@ -412,9 +421,7 @@ class UnifiedForecastService:
             "total_revenue": total_revenue,
             "avg_days_until_stockout": avg_days_until_stockout,
             "health_breakdown": health_breakdown,
-            "replenishment_need_total": replenishment_need_total,
-            "revenue_at_risk": revenue_at_risk,
-            "healthy_supply_count": healthy_supply_count,
-            "healthy_supply_coverage": healthy_supply_coverage
+            "replenishment_need_total": int(round(replenishment_need_total)),
+            "revenue_at_risk": revenue_at_risk
         }
 
