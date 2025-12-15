@@ -1,6 +1,9 @@
 from pydantic import BaseModel
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Optional, Any
 
+# ============================================================================
+# Individual SKU Data Models
+# ============================================================================
 
 class SKUHistoricalData(BaseModel):
     """Historical demand data"""
@@ -11,7 +14,7 @@ class SKUHistoricalData(BaseModel):
 class SKUInventoryData(BaseModel):
     """Inventory/stock data"""
     dates: List[str]
-    values: List[float]
+    values: List[Optional[float]]  # allow None if stock data missing
 
 
 class SKUForecastData(BaseModel):
@@ -28,21 +31,25 @@ class SKUForecastDetail(BaseModel):
     health_status: str
     action_replenishment: str
     current_stock: Optional[float] = None
-    avg_daily_sales: Optional[float] = None
+    forecast_avg_daily: Optional[float] = None  
     days_until_stockout: Optional[float] = None
-    forecasted_demand: float
-    historical_demand: float
+    forecasted_demand: int
+    historical_demand: int
     revenue: float
 
 
+# ============================================================================
+# Aggregated Summary Models
+# ============================================================================
+
 class SummaryMetrics(BaseModel):
-    """Aggregated summary metrics"""
+    """Aggregated summary metrics across all SKUs"""
     total_skus: int
     total_forecasted_demand: int  # integer units
     total_historical_demand: int  # integer units
     total_revenue: float
     avg_days_until_stockout: float
-    # health_breakdown maps each category to count + percent
+    # health_breakdown maps each category to {count, percent}
     health_breakdown: Dict[str, Dict[str, float]]
     replenishment_need_total: int  # integer units needed
     revenue_at_risk: float

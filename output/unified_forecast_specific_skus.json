@@ -1,17 +1,17 @@
 {
   "summary": {
-    "total_skus": 30,
-    "total_forecasted_demand": 3820,
-    "total_historical_demand": 13111,
-    "total_revenue": 2409710.09,
-    "avg_days_until_stockout": 0.63,
+    "total_skus": 2,
+    "total_forecasted_demand": 512,
+    "total_historical_demand": 1585,
+    "total_revenue": 201557.83,
+    "avg_days_until_stockout": 1.0,
     "health_breakdown": {
       "Healthy": {
         "count": 0.0,
         "percent": 0.0
       },
       "Shortage Risk": {
-        "count": 30.0,
+        "count": 2.0,
         "percent": 100.0
       },
       "Slow Movers": {
@@ -23,8 +23,8 @@
         "percent": 0.0
       }
     },
-    "replenishment_need_total": 3270,
-    "revenue_at_risk": 2054116.0
+    "replenishment_need_total": 485,
+    "revenue_at_risk": 190953.41
   },
   "forecast": {}
 }
