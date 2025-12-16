@@ -124,8 +124,8 @@ class InventoryService:
         df_sku_display = df_sku.tail(hist_days) if len(df_sku) > hist_days else df_sku
 
         # Metrics
-        forecasted_demand = float(future["yhat"].sum())
-        historical_demand = float(df_sku_display["y"].sum())
+        forecasted_demand = int(future["yhat"].sum())
+        historical_demand = int(df_sku_display["y"].sum())
         latest_price = float(df_sku_display["unit_price"].iloc[-1]) if "unit_price" in df_sku_display.columns else 0.0
         revenue = forecasted_demand * latest_price
 
@@ -152,8 +152,8 @@ class InventoryService:
 
         return InventoryItem(
             sku_id=sku_id,
-            forecasted_demand=round(forecasted_demand,2),
-            historical_demand=round(historical_demand,2),
+            forecasted_demand=math.floor(forecasted_demand),
+            historical_demand=math.floor(historical_demand),
             revenue=round(revenue,2),
             avg_price=round(latest_price,2),
             health=health,
