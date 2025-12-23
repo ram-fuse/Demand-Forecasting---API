@@ -1,0 +1,3765 @@
+{
+  "data": {
+    "getDropshipPurchaseOrders": [
+      {
+        "id": 231037440,
+        "storePrefix": null,
+        "poNumber": "CS554566670",
+        "poDate": "2024-10-22 16:01:08.000000 +00:00",
+        "orderId": 4321498731,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-03-07 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "33432-3934",
+        "customerCity": "Boca Raton",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1247",
+            "name": "FL6-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554566670",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-021/ANTIQUEFROSTWHITE",
+            "quantity": "1",
+            "price": 1104.5,
+            "pieceCount": 1,
+            "totalCost": 1104.5,
+            "name": "Mary Spindle Four Post BedSize:Queen  Color:Antique Frost White",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231037833,
+        "storePrefix": null,
+        "poNumber": "CS554567079",
+        "poDate": "2024-10-22 16:04:07.000000 +00:00",
+        "orderId": 4323482431,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-03-07 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "34243-4165",
+        "customerCity": "Sarasota",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "830",
+            "name": "TPA-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554567079",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-021/ANTIQUEFROSTWHITE",
+            "quantity": "1",
+            "price": 1104.5,
+            "pieceCount": 1,
+            "totalCost": 1104.5,
+            "name": "Mary Spindle Four Post BedSize:Queen  Color:Antique Frost White",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231038271,
+        "storePrefix": null,
+        "poNumber": "CS554567455",
+        "poDate": "2024-10-22 16:07:08.000000 +00:00",
+        "orderId": 4323483491,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-03-07 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "34108-2899",
+        "customerCity": "Naples",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1051",
+            "name": "RSW-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554567455",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-021/ANTIQUEFROSTWHITE",
+            "quantity": "1",
+            "price": 1104.5,
+            "pieceCount": 1,
+            "totalCost": 1104.5,
+            "name": "Mary Spindle Four Post BedSize:Queen  Color:Antique Frost White",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231039155,
+        "storePrefix": null,
+        "poNumber": "CS554568284",
+        "poDate": "2024-10-22 16:12:10.000000 +00:00",
+        "orderId": 4323485261,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-03-10 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "33607-7229",
+        "customerCity": "Tampa",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "830",
+            "name": "TPA-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554568284",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-021/ANTIQUEFROSTWHITE",
+            "quantity": "1",
+            "price": 1104.5,
+            "pieceCount": 1,
+            "totalCost": 1104.5,
+            "name": "Mary Spindle Four Post BedSize:Queen  Color:Antique Frost White",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231100722,
+        "storePrefix": null,
+        "poNumber": "CS554630727",
+        "poDate": "2024-10-22 23:07:04.000000 +00:00",
+        "orderId": 3086416051,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-19 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "27607-6617",
+        "customerCity": "Raleigh",
+        "customerState": "NC",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554630727",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "807-021H/HONEY",
+            "quantity": "1",
+            "price": 444.5,
+            "pieceCount": 1,
+            "totalCost": 444.5,
+            "name": "Naples Rattan HeadboardSize:Queen  Color:Honey",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5155",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231111756,
+        "storePrefix": null,
+        "poNumber": "CS554642004",
+        "poDate": "2024-10-23 00:32:03.000000 +00:00",
+        "orderId": 4273498257,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-19 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "49506-4814",
+        "customerCity": "Grand Rapids",
+        "customerState": "MI",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554642004",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1023-072/HONEY",
+            "quantity": "1",
+            "price": 367.5,
+            "pieceCount": 1,
+            "totalCost": 367.5,
+            "name": "Pine Isle Glass Top Coffee TableTable Base Color:Honey",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM1783",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231128771,
+        "storePrefix": null,
+        "poNumber": "CS554659162",
+        "poDate": "2024-10-23 02:39:09.000000 +00:00",
+        "orderId": 4236893742,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-03-10 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "31302",
+        "customerCity": "Bloomingdale",
+        "customerState": "GA",
+        "salesChannelName": "BirchLane",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "789",
+            "name": "ATL-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1007",
+            "name": "SAV-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554659162",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-026/HAZEL",
+            "quantity": "1",
+            "price": 1214.5,
+            "pieceCount": 1,
+            "totalCost": 1214.5,
+            "name": "Mary Spindle Four Post BedSize:King  Color:Hazel",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231157574,
+        "storePrefix": null,
+        "poNumber": "CS554688470",
+        "poDate": "2024-10-23 13:03:05.000000 +00:00",
+        "orderId": 3880486491,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-19 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "32952-7112",
+        "customerCity": "Merritt Island",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "832",
+            "name": "MCO-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554688470",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "809-042/CELERY",
+            "quantity": "2",
+            "price": 697.5,
+            "pieceCount": 1,
+            "totalCost": 1395,
+            "name": "Warwick 3 Drawer Wicker ChestColor:Celery  Hardware Color:Satin Nickel",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4493",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231162478,
+        "storePrefix": null,
+        "poNumber": "CS554693579",
+        "poDate": "2024-10-23 13:53:06.000000 +00:00",
+        "orderId": 3124658992,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-19 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "75087-3434",
+        "customerCity": "Rockwall",
+        "customerState": "TX",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "1002",
+            "name": "LAN-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554693579",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1977-029/0851-73/BLACK",
+            "quantity": "2",
+            "price": 285,
+            "pieceCount": 1,
+            "totalCost": 570,
+            "name": "Frame Finish:Black  Fabric Color:Beige Performance Fabric  0851 73",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM1666",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          },
+          {
+            "partNumber": "1977-028/0851-73/BLACK",
+            "quantity": "4",
+            "price": 263,
+            "pieceCount": 1,
+            "totalCost": 1052,
+            "name": "Frame Finish:Black  Fabric Color:Beige Performance Fabric  0851 73",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM1665",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231162961,
+        "storePrefix": null,
+        "poNumber": "CS554694121",
+        "poDate": "2024-10-23 13:58:03.000000 +00:00",
+        "orderId": 4319998165,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-10-24 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "03237-4352",
+        "customerCity": "Gilmanton",
+        "customerState": "NH",
+        "salesChannelName": "BirchLane",
+        "orderType": "SP",
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554694121",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "HONEY",
+            "quantity": "1",
+            "price": 15,
+            "pieceCount": 1,
+            "totalCost": 15,
+            "name": "Honey Finish Sample",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5360",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231168180,
+        "storePrefix": null,
+        "poNumber": "CS554699484",
+        "poDate": "2024-10-23 14:42:07.000000 +00:00",
+        "orderId": 4288783951,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-01-27 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "31546-2680",
+        "customerCity": "Jesup",
+        "customerState": "GA",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "789",
+            "name": "ATL-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1007",
+            "name": "SAV-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554699484",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-026/COFFEE",
+            "quantity": "1",
+            "price": 1214.5,
+            "pieceCount": 1,
+            "totalCost": 1214.5,
+            "name": "Emily Spindle Four Post BedSize:King  Color:Coffee",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231176286,
+        "storePrefix": null,
+        "poNumber": "CS554707589",
+        "poDate": "2024-10-23 15:40:24.000000 +00:00",
+        "orderId": 4320522422,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-19 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "22312-1161",
+        "customerCity": "Alexandria",
+        "customerState": "VA",
+        "salesChannelName": "Perigold",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "1128",
+            "name": "DCA-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554707589",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "810-026K/0865-91/HAVANA",
+            "quantity": "1",
+            "price": 950.5,
+            "pieceCount": 1,
+            "totalCost": 950.5,
+            "name": "PLEASE CALL US BEFORE PROCESSING  Option description exceeded field length ",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3934",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231206276,
+        "storePrefix": null,
+        "poNumber": "CS554737782",
+        "poDate": "2024-10-23 18:57:04.000000 +00:00",
+        "orderId": 3920850262,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-20 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "33441",
+        "customerCity": "Deerfield Beach",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1247",
+            "name": "FL6-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554737782",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "818-036/HONEY",
+            "quantity": "1",
+            "price": 851.5,
+            "pieceCount": 1,
+            "totalCost": 851.5,
+            "name": "Summer Retreat 7   Drawer DresserColor:Honey",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCL1781",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231234767,
+        "storePrefix": null,
+        "poNumber": "CA554766505",
+        "poDate": "2024-10-23 22:07:10.000000 +00:00",
+        "orderId": 4323125721,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-20 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "L9X 0H1",
+        "customerCity": "minesing",
+        "customerState": "ON",
+        "salesChannelName": "Wayfair Canada",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "901",
+            "name": "YYZ-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CA554766505",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "728-001/0327-91/HAVANA",
+            "quantity": "1",
+            "price": 670,
+            "pieceCount": 1,
+            "totalCost": 670,
+            "name": "Frame Finish:Havana  Fabric Colour:White Cotton Solid  0327 91",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4265",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231235677,
+        "storePrefix": null,
+        "poNumber": "CS554767487",
+        "poDate": "2024-10-23 22:13:08.000000 +00:00",
+        "orderId": 4294305942,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-20 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "33704-3035",
+        "customerCity": "Saint Petersburg",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "830",
+            "name": "TPA-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554767487",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "109-024/CELERY",
+            "quantity": "1",
+            "price": 466.5,
+            "pieceCount": 1,
+            "totalCost": 466.5,
+            "name": "Montgomery Wicker Rattan Bar CartFrame Color:Celery",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM1016",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          },
+          {
+            "partNumber": "914-078/CELERY",
+            "quantity": "1",
+            "price": 422.5,
+            "pieceCount": 1,
+            "totalCost": 422.5,
+            "name": "Edgewater Etagere BookcaseColor:Celery",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCL1609",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231247998,
+        "storePrefix": null,
+        "poNumber": "CS554779899",
+        "poDate": "2024-10-23 23:55:09.000000 +00:00",
+        "orderId": 4320660622,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-20 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "31411-2932",
+        "customerCity": "Savannah",
+        "customerState": "GA",
+        "salesChannelName": "Perigold",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "789",
+            "name": "ATL-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1007",
+            "name": "SAV-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554779899",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "512-005/0851-54",
+            "quantity": "2",
+            "price": 686.5,
+            "pieceCount": 1,
+            "totalCost": 1373,
+            "name": "Body Fabric:Green Performance Fabric Polypropylene Olefin",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5063",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231264091,
+        "storePrefix": null,
+        "poNumber": "CS554796191",
+        "poDate": "2024-10-24 02:01:03.000000 +00:00",
+        "orderId": 3649116795,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-20 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "29678-2970",
+        "customerCity": "Seneca",
+        "customerState": "SC",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554796191",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "520-009/0252-54/HAVANA",
+            "quantity": "1",
+            "price": 323.5,
+            "pieceCount": 1,
+            "totalCost": 323.5,
+            "name": "Fabric:Green and Blue Stripe  0252 54  Leg Color:Havana Finish",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCL1512",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231264149,
+        "storePrefix": null,
+        "poNumber": "CS554796192",
+        "poDate": "2024-10-24 02:01:05.000000 +00:00",
+        "orderId": 3649116795,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-20 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "WGP",
+        "customerPostalCode": "29678-2970",
+        "customerCity": "Seneca",
+        "customerState": "SC",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "WHITE_GLOVE_PLATINUM",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "1427",
+            "name": null
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554796192",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "621-001/0252-54",
+            "quantity": "1",
+            "price": 637,
+            "pieceCount": 1,
+            "totalCost": 637,
+            "name": "Belmont ArmchairFabric:Green and Blue Stripe  0252 54",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCL1496",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231300087,
+        "storePrefix": null,
+        "poNumber": "CS554832217",
+        "poDate": "2024-10-24 13:31:08.000000 +00:00",
+        "orderId": 4308240253,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-01-28 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "36532-4382",
+        "customerCity": "Fairhope",
+        "customerState": "AL",
+        "salesChannelName": "BirchLane",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "789",
+            "name": "ATL-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "477",
+            "name": "PEN-ILOG"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554832217",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-026/HAZEL",
+            "quantity": "1",
+            "price": 1214.5,
+            "pieceCount": 1,
+            "totalCost": 1214.5,
+            "name": "Mary Spindle Four Post BedSize:King  Color:Hazel",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231331014,
+        "storePrefix": null,
+        "poNumber": "CS554863394",
+        "poDate": "2024-10-24 17:14:05.000000 +00:00",
+        "orderId": 4315178551,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-21 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "33611",
+        "customerCity": "Tampa",
+        "customerState": "FL",
+        "salesChannelName": "Perigold",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554863394",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1031-072/ANTFROSTWHITE",
+            "quantity": "1",
+            "price": 367.5,
+            "pieceCount": 1,
+            "totalCost": 367.5,
+            "name": "Bridgehampton Coffee TableTable Base Color:Antique Frost White",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4523",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231339733,
+        "storePrefix": null,
+        "poNumber": "CS554872194",
+        "poDate": "2024-10-24 18:10:05.000000 +00:00",
+        "orderId": 4182849685,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-12-05 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "11709-2624",
+        "customerCity": "Bayville",
+        "customerState": "NY",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "641",
+            "name": "EWR001"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554872194",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-020/HAZEL",
+            "quantity": "1",
+            "price": 774.5,
+            "pieceCount": 1,
+            "totalCost": 774.5,
+            "name": "Mary Spindle Four Post BedSize:Twin  Color:Hazel",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231341281,
+        "storePrefix": null,
+        "poNumber": "CS554873715",
+        "poDate": "2024-10-24 18:20:10.000000 +00:00",
+        "orderId": 4324225311,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-01-08 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "07608-1138",
+        "customerCity": "Teterboro",
+        "customerState": "NJ",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "1403",
+            "name": "NJ06"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554873715",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1014-001/0851-94/COFFEE",
+            "quantity": "2",
+            "price": 791,
+            "pieceCount": 1,
+            "totalCost": 1582,
+            "name": "Body Fabric:White Performance Fabric  0851 94  Frame Color:Coffee",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5416",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231360719,
+        "storePrefix": null,
+        "poNumber": "CS554893377",
+        "poDate": "2024-10-24 20:25:05.000000 +00:00",
+        "orderId": 4314989869,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-21 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "48307-1915",
+        "customerCity": "Rochester",
+        "customerState": "MI",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1044",
+            "name": "ELG-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1360",
+            "name": "WDET"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554893377",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "846-026/NAVY",
+            "quantity": "1",
+            "price": 1126.5,
+            "pieceCount": 1,
+            "totalCost": 1126.5,
+            "name": "Louisa Solid Wood Spindle BedSize:King  Color:Navy",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3765",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231367688,
+        "storePrefix": null,
+        "poNumber": "CS554900501",
+        "poDate": "2024-10-24 21:12:05.000000 +00:00",
+        "orderId": 3937782573,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-01-29 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "46033-9812",
+        "customerCity": "Carmel",
+        "customerState": "IN",
+        "salesChannelName": "BirchLane",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1044",
+            "name": "ELG-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1421",
+            "name": "IND-FGOL"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554900501",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-026/HAZEL",
+            "quantity": "1",
+            "price": 1214.5,
+            "pieceCount": 1,
+            "totalCost": 1214.5,
+            "name": "Mary Spindle Four Post BedSize:King  Color:Hazel",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231372104,
+        "storePrefix": null,
+        "poNumber": "CS554904869",
+        "poDate": "2024-10-24 21:45:06.000000 +00:00",
+        "orderId": 4321358132,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-21 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "33316-1323",
+        "customerCity": "Fort Lauderdale",
+        "customerState": "FL",
+        "salesChannelName": "BirchLane",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1247",
+            "name": "FL6-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554904869",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "809-036G/ANTIQUEBLACK",
+            "quantity": "1",
+            "price": 1137.5,
+            "pieceCount": 1,
+            "totalCost": 1137.5,
+            "name": "Color:Antique Black  Hardware Color:Satin Brass",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4492",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231451318,
+        "storePrefix": null,
+        "poNumber": "CS554985631",
+        "poDate": "2024-10-25 15:02:08.000000 +00:00",
+        "orderId": 4315203019,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-21 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "08559-2003",
+        "customerCity": "Stockton",
+        "customerState": "NJ",
+        "salesChannelName": "BirchLane",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "670",
+            "name": "PHL-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554985631",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "846-021/COFFEE",
+            "quantity": "1",
+            "price": 994.5,
+            "pieceCount": 1,
+            "totalCost": 994.5,
+            "name": "Louisa Solid Wood Spindle BedSize:Queen  Color:Coffee",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3765",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231460941,
+        "storePrefix": null,
+        "poNumber": "CS554995432",
+        "poDate": "2024-10-25 16:07:08.000000 +00:00",
+        "orderId": 4322660375,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-21 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "15217-4500",
+        "customerCity": "Pittsburgh",
+        "customerState": "PA",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "1015",
+            "name": "PIT-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554995432",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "759-019/0206-85/HAVANA",
+            "quantity": "1",
+            "price": 945,
+            "pieceCount": 1,
+            "totalCost": 945,
+            "name": "Park Lane LoveseatLeg Color:Havana Finish  Fabric Color:Pearl Stripe  0206 85",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4214",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231462241,
+        "storePrefix": null,
+        "poNumber": "CS554996745",
+        "poDate": "2024-10-25 16:16:06.000000 +00:00",
+        "orderId": 4319071362,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "07042-1625",
+        "customerCity": "Montclair",
+        "customerState": "NJ",
+        "salesChannelName": "Perigold",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "1403",
+            "name": "NJ06"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS554996745",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1046-001/0886-91/COFFEE",
+            "quantity": "2",
+            "price": 752.5,
+            "pieceCount": 1,
+            "totalCost": 1505,
+            "name": "Leg Color:Coffee Finish  Fabric:Ivory Crypton Performance  0886 91",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3778",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231469883,
+        "storePrefix": null,
+        "poNumber": "CS555004352",
+        "poDate": "2024-10-25 17:05:17.000000 +00:00",
+        "orderId": 4317922981,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "27608-2732",
+        "customerCity": "Raleigh",
+        "customerState": "NC",
+        "salesChannelName": "Perigold",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555004352",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "808-021/0317-61/HAVANA",
+            "quantity": "1",
+            "price": 796.5,
+            "pieceCount": 1,
+            "totalCost": 796.5,
+            "name": "Size:Queen  Leg Color:Havana Finish  Body Fabric:Basic Navy  0317 61",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCL1756",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          },
+          {
+            "partNumber": "580-091/0126-63/COFFEE",
+            "quantity": "2",
+            "price": 587.5,
+            "pieceCount": 1,
+            "totalCost": 1175,
+            "name": "Riomar Slipper ChairLeg Color:Coffee  Fabric:Lapis Plaid  0126 63",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5004",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231476271,
+        "storePrefix": null,
+        "poNumber": "CS555010983",
+        "poDate": "2024-10-25 17:46:06.000000 +00:00",
+        "orderId": 4313265753,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-08 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "75052",
+        "customerCity": "Grand Prairie",
+        "customerState": "TX",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "1002",
+            "name": "LAN-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555010983",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "2934-050/SUNWEATHER",
+            "quantity": "1",
+            "price": 199.5,
+            "pieceCount": 1,
+            "totalCost": 199.5,
+            "name": "Artisan Landing 44   ServerColor:Sunweather",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3885",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231548629,
+        "storePrefix": null,
+        "poNumber": "CS555084521",
+        "poDate": "2024-10-26 03:03:04.000000 +00:00",
+        "orderId": 2686046519,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "34103",
+        "customerCity": "Naples",
+        "customerState": "FL",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1051",
+            "name": "RSW-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555084521",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1023-058GL/SEAGLASS",
+            "quantity": "1",
+            "price": 642.5,
+            "pieceCount": 1,
+            "totalCost": 642.5,
+            "name": "Pine Isle Writing DeskColor:Sea Glass  Glass Top Included:Yes",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3690",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231579593,
+        "storePrefix": null,
+        "poNumber": "CS555116038",
+        "poDate": "2024-10-26 14:17:05.000000 +00:00",
+        "orderId": 4322358332,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "08723-5806",
+        "customerCity": "Brick",
+        "customerState": "NJ",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "670",
+            "name": "PHL-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555116038",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "846-026/FROSTWHITE",
+            "quantity": "1",
+            "price": 1126.5,
+            "pieceCount": 1,
+            "totalCost": 1126.5,
+            "name": "Louisa Solid Wood Spindle BedSize:King  Color:Frost White",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3765",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231600380,
+        "storePrefix": null,
+        "poNumber": "CS555137105",
+        "poDate": "2024-10-26 16:41:07.000000 +00:00",
+        "orderId": 4320151822,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "02739-1616",
+        "customerCity": "Mattapoisett",
+        "customerState": "MA",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "1157",
+            "name": "BOS-WAY2"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555137105",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1023-071/NAVY",
+            "quantity": "1",
+            "price": 279.5,
+            "pieceCount": 1,
+            "totalCost": 279.5,
+            "name": "Pine Isle Glass Top End TableColor:Navy",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM1782",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231618334,
+        "storePrefix": null,
+        "poNumber": "CS555155392",
+        "poDate": "2024-10-26 18:32:07.000000 +00:00",
+        "orderId": 4238905419,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-01-30 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "49009-4534",
+        "customerCity": "Kalamazoo",
+        "customerState": "MI",
+        "salesChannelName": "BirchLane",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1044",
+            "name": "ELG-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "536",
+            "name": "ELK-RAS"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555155392",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-026/HAZEL",
+            "quantity": "1",
+            "price": 1214.5,
+            "pieceCount": 1,
+            "totalCost": 1214.5,
+            "name": "Mary Spindle Four Post BedSize:King  Color:Hazel",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231645172,
+        "storePrefix": null,
+        "poNumber": "CS555182632",
+        "poDate": "2024-10-26 21:21:06.000000 +00:00",
+        "orderId": 4322677255,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "27540-8047",
+        "customerCity": "Holly Springs",
+        "customerState": "NC",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555182632",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "807-049/COFFEE",
+            "quantity": "1",
+            "price": 241,
+            "pieceCount": 1,
+            "totalCost": 241,
+            "name": "Naples Rattan Wall MirrorFinish:Coffee",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM1656",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231657491,
+        "storePrefix": null,
+        "poNumber": "CS555195067",
+        "poDate": "2024-10-26 22:49:07.000000 +00:00",
+        "orderId": 4274315926,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "95030-6925",
+        "customerCity": "Los Gatos",
+        "customerState": "CA",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1034",
+            "name": "LRP-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "817",
+            "name": "SF-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555195067",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "809-094/0884-91/COFFEE",
+            "quantity": "1",
+            "price": 417,
+            "pieceCount": 1,
+            "totalCost": 417,
+            "name": "Frame Color:Coffee  Upholstery Color:Snow Crypton Performance  0884 91",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4490",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231671325,
+        "storePrefix": null,
+        "poNumber": "CS555209082",
+        "poDate": "2024-10-27 00:40:09.000000 +00:00",
+        "orderId": 4316615652,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "43065-9350",
+        "customerCity": "Powell",
+        "customerState": "OH",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1044",
+            "name": "ELG-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1001",
+            "name": "LUK-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555209082",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "955-055/0851-55/ANTFROSTWHITE",
+            "quantity": "1",
+            "price": 813,
+            "pieceCount": 1,
+            "totalCost": 813,
+            "name": "PLEASE CALL US BEFORE PROCESSING  Option description exceeded field length ",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4608",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231678882,
+        "storePrefix": null,
+        "poNumber": "CS555216883",
+        "poDate": "2024-10-27 01:45:10.000000 +00:00",
+        "orderId": 4313612769,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "32034",
+        "customerCity": "FERNANDINA BEACH",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555216883",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1060-072/NAVY",
+            "quantity": "1",
+            "price": 395,
+            "pieceCount": 1,
+            "totalCost": 395,
+            "name": "Jensen Coffee TableColor:Navy",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4738",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231814228,
+        "storePrefix": null,
+        "poNumber": "CS555354216",
+        "poDate": "2024-10-27 23:25:06.000000 +00:00",
+        "orderId": 4323809922,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "34119-2001",
+        "customerCity": "Naples",
+        "customerState": "FL",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1051",
+            "name": "RSW-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555354216",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1970-001/0565-66/ANTFROSTWHITE",
+            "quantity": "2",
+            "price": 571,
+            "pieceCount": 1,
+            "totalCost": 1142,
+            "name": "Frame Finish:Antique Frost White  Fabric Color:Blue Teal Coastal Print  0565 66",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM4178",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231823762,
+        "storePrefix": null,
+        "poNumber": "CS555363807",
+        "poDate": "2024-10-28 00:22:15.000000 +00:00",
+        "orderId": 4313193459,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "78704",
+        "customerCity": "Austin",
+        "customerState": "TX",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1002",
+            "name": "LAN-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "937",
+            "name": "AUS-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555363807",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "724-016/0851-94/FROSTWHITE",
+            "quantity": "1",
+            "price": 1148.5,
+            "pieceCount": 1,
+            "totalCost": 1148.5,
+            "name": "Leg Color:Frost White Finish  Body Fabric:White Performance Fabric  0851 94",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCL1766",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231835111,
+        "storePrefix": null,
+        "poNumber": "CS555375531",
+        "poDate": "2024-10-28 01:32:05.000000 +00:00",
+        "orderId": 4277594357,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "95694",
+        "customerCity": "Winters",
+        "customerState": "CA",
+        "salesChannelName": "BirchLane",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555375531",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1046-194/0865-91/ANTBLACK",
+            "quantity": "1",
+            "price": 400.5,
+            "pieceCount": 1,
+            "totalCost": 400.5,
+            "name": "Leg Color:Antique Black Finish  Body Fabric:White Textured Performance  0865 91",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3777",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          },
+          {
+            "partNumber": "1046-094/0865-91/ANTBLACK",
+            "quantity": "2",
+            "price": 301.5,
+            "pieceCount": 1,
+            "totalCost": 603,
+            "name": "Leg Color:Antique Black Finish  Body Fabric:White Textured Performance  0865 91",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3776",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231861420,
+        "storePrefix": null,
+        "poNumber": "CS555402104",
+        "poDate": "2024-10-28 05:40:04.000000 +00:00",
+        "orderId": 4323659265,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-08 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "08510-8763",
+        "customerCity": "Millstone Township",
+        "customerState": "NJ",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555402104",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "2934-094MB",
+            "quantity": "1",
+            "price": 139.75,
+            "pieceCount": 1,
+            "totalCost": 139.75,
+            "name": "Artisan Landing Upholstered Storage BenchColor:Black Sunweather",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM2363",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231886056,
+        "storePrefix": null,
+        "poNumber": "CS555427135",
+        "poDate": "2024-10-28 14:16:08.000000 +00:00",
+        "orderId": 4324051141,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2025-01-30 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "33919-7275",
+        "customerCity": "Fort Myers",
+        "customerState": "FL",
+        "salesChannelName": "BirchLane",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1051",
+            "name": "RSW-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555427135",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "848-026/FROSTWHITE",
+            "quantity": "1",
+            "price": 1214.5,
+            "pieceCount": 1,
+            "totalCost": 1214.5,
+            "name": "Mary Spindle Four Post BedSize:King  Color:Frost White",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM5157",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231890326,
+        "storePrefix": null,
+        "poNumber": "CS555431414",
+        "poDate": "2024-10-28 14:47:13.000000 +00:00",
+        "orderId": 4313500191,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-22 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "12775-6620",
+        "customerCity": "Rock Hill",
+        "customerState": "NY",
+        "salesChannelName": "Perigold",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "1012",
+            "name": "NBG-ARNF"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555431414",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1051-075/STONEHEARTH",
+            "quantity": "1",
+            "price": 917.5,
+            "pieceCount": 1,
+            "totalCost": 917.5,
+            "name": "Douglas Round Dining TableColor:Stone Hearth Finish  Size:48  W x 48  L",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3686",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231936630,
+        "storePrefix": null,
+        "poNumber": "CS555478521",
+        "poDate": "2024-10-28 19:21:13.000000 +00:00",
+        "orderId": 4322071385,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-25 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "19103-2201",
+        "customerCity": "Philadelphia",
+        "customerState": "PA",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "918",
+            "name": "CRN03"
+          },
+          "deliveryAgent": {
+            "id": "670",
+            "name": "PHL-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555478521",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "1046-001/0425-13/ANTBLACK",
+            "quantity": "2",
+            "price": 785.5,
+            "pieceCount": 1,
+            "totalCost": 1571,
+            "name": "Leg Color:Antique Black Finish  Fabric:Cranberry Maze  0425 13",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3778",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231962597,
+        "storePrefix": null,
+        "poNumber": "CS555507055",
+        "poDate": "2024-10-28 21:55:06.000000 +00:00",
+        "orderId": 4325767411,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-11 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "07732-1574",
+        "customerCity": "Highlands",
+        "customerState": "NJ",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555507055",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "2934-094/HATTERAS",
+            "quantity": "1",
+            "price": 139.75,
+            "pieceCount": 1,
+            "totalCost": 139.75,
+            "name": "Artisan Landing Upholstered Storage BenchColor:Hatteras",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM2363",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231967998,
+        "storePrefix": null,
+        "poNumber": "CS555512559",
+        "poDate": "2024-10-28 22:32:06.000000 +00:00",
+        "orderId": 3794530666,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-25 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "97703",
+        "customerCity": "Bend",
+        "customerState": "OR",
+        "salesChannelName": "Perigold",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1034",
+            "name": "LRP-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "594",
+            "name": "EUG-ABT"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555512559",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "628-011/0863-93",
+            "quantity": "1",
+            "price": 1038.5,
+            "pieceCount": 1,
+            "totalCost": 1038.5,
+            "name": "Benton SofaFabric Color:Beige Sugar Performance  0863 93",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCL1292",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231970254,
+        "storePrefix": null,
+        "poNumber": "CS555514963",
+        "poDate": "2024-10-28 22:48:05.000000 +00:00",
+        "orderId": 4314916809,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-11 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "FDHD",
+        "customerPostalCode": "19380-4047",
+        "customerCity": "West Chester",
+        "customerState": "PA",
+        "salesChannelName": "Wayfair",
+        "orderType": null,
+        "shippingInfo": {
+          "shipSpeed": "FEDEX_HOME",
+          "carrierCode": "FDEG",
+          "poolPointAgent": null,
+          "crossDockAgent": null,
+          "deliveryAgent": null
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555514963",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "2934-094/HATTERAS",
+            "quantity": "1",
+            "price": 139.75,
+            "pieceCount": 1,
+            "totalCost": 139.75,
+            "name": "Artisan Landing Upholstered Storage BenchColor:Hatteras",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM2363",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231970757,
+        "storePrefix": null,
+        "poNumber": "CS555515356",
+        "poDate": "2024-10-28 22:51:39.000000 +00:00",
+        "orderId": 4325769201,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-25 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "33921-1000",
+        "customerCity": "Boca Grande",
+        "customerState": "FL",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": {
+            "id": "1036",
+            "name": "JAX-WAY1"
+          },
+          "deliveryAgent": {
+            "id": "1051",
+            "name": "RSW-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555515356",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "807-026/SEAGLASS",
+            "quantity": "2",
+            "price": 1165,
+            "pieceCount": 1,
+            "totalCost": 2330,
+            "name": "Monterey Woven BedSize:King  Color:Sea Glass",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM1655",
+            "isTscaCompliant": false,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      },
+      {
+        "id": 231983543,
+        "storePrefix": null,
+        "poNumber": "CS555528618",
+        "poDate": "2024-10-29 00:21:06.000000 +00:00",
+        "orderId": 4323951395,
+        "supplierId": 13208,
+        "supplierName": "Braxton Culler, Inc NC 27350",
+        "supplierPostalCode": "27350",
+        "estimatedShipDate": "2024-11-25 00:00:00.000000 +00:00",
+        "scheduledDeliveryDate": null,
+        "deliveryMethodCode": "TRB",
+        "customerPostalCode": "30224-4311",
+        "customerCity": "Griffin",
+        "customerState": "GA",
+        "salesChannelName": "Wayfair",
+        "orderType": "B2B",
+        "shippingInfo": {
+          "shipSpeed": "CURBSIDE",
+          "carrierCode": "KYSO",
+          "poolPointAgent": {
+            "id": "650",
+            "name": "GSOPP1"
+          },
+          "crossDockAgent": null,
+          "deliveryAgent": {
+            "id": "789",
+            "name": "ATL-WAY1"
+          }
+        },
+        "packingSlipUrl": "https://api.wayfair.com/v1/packing_slip/CS555528618",
+        "warehouse": {
+          "id": "13208",
+          "name": "CCNC Operations, LLC dba Braxton Culler",
+          "address": {
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "address1": "7310 US Highway 311",
+            "address2": null,
+            "address3": null,
+            "city": "Sophia",
+            "state": "NC",
+            "country": "US",
+            "postalCode": "27350",
+            "phoneNumber": null
+          },
+          "supplier": {
+            "id": "13208",
+            "name": "CCNC Operations, LLC dba Braxton Culler",
+            "shortName": "CCNCOperations,LLCdbaBraxtller",
+            "status": "ACTIVE",
+            "websiteURL": "braxtonculler.com",
+            "currency": "USD"
+          }
+        },
+        "products": [
+          {
+            "partNumber": "846-021/COFFEE",
+            "quantity": "1",
+            "price": 994.5,
+            "pieceCount": 1,
+            "totalCost": 994.5,
+            "name": "Louisa Solid Wood Spindle BedSize:Queen  Color:Coffee",
+            "weight": null,
+            "totalWeight": 0,
+            "estShipDate": null,
+            "fillDate": null,
+            "sku": "BXCM3765",
+            "isTscaCompliant": true,
+            "twoDayGuaranteeDeliveryDeadline": null,
+            "event": null
+          }
+        ]
+      }
+    ]
+  }
+}
